@@ -8,7 +8,6 @@ import SectionHeader from "@/components/layout/SectionHeader";
 export default function Home() {
   return (
     <>
-      <Header />
       <Hero />
       <HomeMenu />
       <section className="text-center my-16">
@@ -41,15 +40,8 @@ export default function Home() {
             mainHeader={"Contact Us"}
             subHeader={"Don\'t hesitate "}
         />
-          <div className="mt-8">
-              <a className="text-4xl underline text-gray-500" href="tel:+088 01973 0000">
-                  +088 01973 0000
-              </a>
-          </div>
       </section>
-        <footer className="border-t p-8 text-center text-gray-500">
-            &copy; Made By Mazharul Islam CSEKU
-        </footer>
+
 
     </>
   );
