@@ -11,8 +11,6 @@ const UserSchema = new Schema({
                 new error("password must be at least 5 charecter")
             }
         },
-
-        
     },
 }, {timestamps: true});
 
