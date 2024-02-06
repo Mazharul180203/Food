@@ -17,8 +17,6 @@ export default function RootLayout({ children }) {
           <Header/>
           {children}
 
-
-          
           <footer className="border-t p-8 text-center text-gray-500 mt-8">
               &copy; Made By Mazharul Islam CSEKU
           </footer>

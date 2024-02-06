@@ -6,9 +6,9 @@ const Page = () => {
     const [email,setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const handelFormSubmit = (event)=>{
+    async function handelFormSubmit (event){
        event.preventDefault();
-       fetch('/api/register',{
+       await fetch('/api/register',{
            method:'POST',
            body:JSON.stringify({email,password}),
            headers:{'Content-Type':'application/json'},
